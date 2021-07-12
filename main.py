@@ -4,12 +4,12 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-TWITTER_LOGIN = "SeleniumPracti2"
-TWITTER_PASS = "seleniumtest"
-internet_provider = "INPUT INTERNET SERVICE PROVIDER"
+TWITTER_LOGIN = "TWITTERLOGIN" #INPUT TWITTER LOGIN
+TWITTER_PASS = "TWITTERPASSWORD" #INPUT TWITTER PASSWORD
+internet_provider = "INTERNET SERVICE PROVIDER" #INPUT INTERNET SERVICE PROVIDER
 PROMISED_DOWN = 150 #INPUT PROMISED DOWNLOAD SPEED
 PROMISED_UP = 10 #INPUT PROMISED UPLOAD SPEED
-CHROME_DRIVER_PATH = "C:\\Development\\chromedriver.exe"
+CHROME_DRIVER_PATH = "C:\\Development\\chromedriver.exe" #INPUT CHROME DRIVER PATH
 
 class InternetSpeedTwitterBot:
     def __init__(self, driver_path):
